@@ -330,12 +330,17 @@ transition: all ease 600ms;
 #iphone{
     margin-top: 250px;
 }
+#features{
+    margin-top: 160px;
+    position: relative;
+}
 .container--iphone{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
+
 .iphone--para{
     font-size: 20px;
     color: #666E82;
@@ -420,5 +425,122 @@ padding-right: 20px;
     .small{
         font-size: 15px;
         line-height: 25px;
+    }
+}
+
+
+.contianer--features{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+
+}
+
+.size-fea{
+    font-size: 55px;
+}
+
+.featers--left{
+   width: 50%;
+}
+.features--right{
+   
+   width: 40%;
+   display: flex;
+    align-items: center;
+  
+}
+.featurs--img{
+    position: absolute;
+      width: 900px;
+      right:0 ;
+      bottom: -50px;
+      z-index: -1;
+}
+.icons--container-features{
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+    padding-left: 0;
+}
+.icons--features__wrapper{
+    padding-right:70px;
+    margin-top:60px;
+    
+     
+}
+
+.size--fea-down{
+    font-size: 18px;
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 550px;
+}
+
+@media (max-width:1630px) {
+    .featurs--img{
+        width: 800px;
+    }
+}
+@media (max-width:1400px) {
+    .featurs--img{
+        width: 500px;
+    }
+}
+@media (max-width:1200px) {
+    .featurs--img{
+       display: none;
+    }
+    .features--right{
+        display: none;
+    }
+    .feauters-head{
+        text-align: center;
+    }
+    .size--fea-down{
+        text-align: center;
+        font-size: 17px;
+    }
+    .fea-btn{
+         
+    }
+    .featers--left{
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .icons--container-features{
+    margin: 0 auto;
+    }
+    
+    #features{
+        margin-top: 250px;
+    }
+}
+
+
+@media (max-width:776px) {
+    .🤖{
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+    }
+}
+@media (max-width:600px) {
+    .icons--features__wrapper{
+        display: none;
+    }
+    .size--fea-down{
+        line-height: 27px;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .feauters-head{
+        font-size: 30px;
+        line-height: 37px;
     }
 }
