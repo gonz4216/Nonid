@@ -5,6 +5,10 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
     /* outline: solid 1px green; */
+
+}
+html{
+    scroll-behavior: smooth;
 }
 .re-h1{
     
@@ -68,6 +72,12 @@ nav{
      padding: 0 20px;
      font-size: 17px;
      font-weight: 500;
+     transition: all 500ms ease-in-out;
+}
+
+
+.orgrane:hover{
+color: #ff8257;
 }
 .logo{
     width: 100%;
@@ -810,17 +820,21 @@ a{
 .content--footer-head{
     margin: 0;
     color: #2E3D62;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1em;
     font-weight: 600;
     margin-bottom: 35px;
     
 }
 .footer-sub-content{
-    font: 18px;
+    font: 20px;
     color: #666E82;
     font-weight: 400;
     padding-bottom: 15px;
+transition: all .4s ease-in-out;
+}
+.footer-sub-content:hover{
+    color: #ff8257;
 }
 .container--footer{
     display: flex;
